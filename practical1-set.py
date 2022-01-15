@@ -1,0 +1,10 @@
+fruit_set = {"apple"}
+print(fruit_set)
+print("\nAdd single element:")
+fruit_set.add("Banana")
+print(fruit_set)
+print("\nAdd multiple items:")
+fruit_set.update(["kiwi", "Grape"])
+print(fruit_set)
+fruit_set.clear()
+print("SET after clear::",fruit_set)
